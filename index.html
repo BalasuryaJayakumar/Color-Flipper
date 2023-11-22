@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Background Color</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+</head>
+<body>
+    <header class="header">
+        <h1 class="color__flipper">Color Flipper</h1>
+        <div class="header__div">
+            <button onclick="window.location.reload();" class="header__button simple__btn">Simple</button>
+            <button class="header__button hex__btn">Hex</button>
+        </div>
+    </header>
+    <main class="main">
+        <section id="simple" class="section whitesmoke">
+            <h1 class="simple__h1 bgtext">
+                <span class="nowrap">Background Color:</span>
+                <span class="nowrap simple__name clr__name"> Whitesmoke</span>
+            </h1>
+            <button class="click simple__button">
+                <span class="nowrap">Click Me</span>
+            </button>
+        </section>
+
+        <section id="hex" class="hex__none section whitesmoke">
+            <h1 class="hex__h1 bgtext">
+                <span class="nowrap">Background Color:</span>
+                <span class="nowrap hex__name clr__name"> Whitesmoke</span>
+            </h1>
+            <button class="click hex__button">
+                <span class="nowrap">Click Me</span>
+            </button>
+        </section>
+    </main>
+</body>
+</html>
